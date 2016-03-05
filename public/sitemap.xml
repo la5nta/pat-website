@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://getpat.io/</loc>
+    <lastmod>2016-02-20T16:35:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/post/anywhere/</loc>
+    <lastmod>2016-02-20T16:35:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/post/simple_yet_powerful/</loc>
+    <lastmod>2016-02-27T21:59:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/post/opensource/</loc>
+    <lastmod>2016-02-20T17:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/carousel/carousel/</loc>
+    <lastmod>2016-02-27T23:34:21+01:00</lastmod>
+  </url>
+  
+</urlset>
