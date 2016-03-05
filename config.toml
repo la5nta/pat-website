@@ -1,0 +1,35 @@
+theme = "hugo-base-theme"
+baseurl = "http://getpat.io"
+languageCode = "en-us"
+title = "Pat :: A modern Winlink client"
+
+[params]
+  description = "A portable winlink client written in Go"
+  mainIcon = "/img/logo.png"
+  author = "Martin Hebnes Pedersen"
+
+[[params.social]]
+    title = "Docs"
+    style = "primary"
+    url = "https://github.com/la5nta/pat/wiki"
+
+[[params.social]]
+    title = "Install"
+    style = "success"
+    url = "#action"
+
+[[params.social]]
+    title = "Community"
+    style = "info"
+    url = "https://groups.google.com/group/pat-users"
+
+[[params.social]]
+    title = "GitHub"
+    style = "dark"
+    url = "https://github.com/la5nta/pat"
+
+[[menu.main]]
+    name = "Download Pat"
+    pre = "<i class='fa fa-download'></i>"
+    url = "https://github.com/la5nta/pat/releases"
+    weight = -200

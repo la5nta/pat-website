@@ -1,0 +1,77 @@
+{{ partial "header.html" . }}
+{{ partial "top-block.html" . }}
+  {{ range $index, $element :=  .Data.Pages.ByWeight }}{{ if eq .Section "post" }}
+
+    <div id="main">
+        <!-- Intro -->
+        {{ if modBool $index 2 }}<div id="intro" class="counterpoint">{{ else }}<div id="intro" class="point">{{ end}}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                {{ if (isset .Params "icon") }}
+                    <i class="lead-icon icon-{{ .Params.icon }}"></i>
+                {{ end }}
+                {{ range $icon := .Params.icons }}
+                    <i class="lead-icon icon-{{ $icon }}"></i>
+                {{ end }}
+                <h2>{{ .Title }}</h2>
+                <div class="lead">
+                    {{ .Content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Intro -->
+      {{ end }}
+      {{ if eq .Section "carousel" }}
+      <!-- /Point -->
+
+
+      <div class="callout">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+                {{ if (isset .Params "icon") }}
+                    <i class="callout-icon icon-{{ .Params.icon }}"></i>
+                {{ end }}
+                <p>{{ .Content }}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner owl-carousel">
+                    {{ range .Params.carousel }}
+                      <div class="item"> <blockquote><p>{{ .title }}</p>{{ .description }}<a href="{{ .url }}">{{ .urltext }}</a></blockquote> </div>
+                    {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Point -->
+      {{ end }}
+    {{ end }}
+
+    </div>
+
+        <!-- Call to Action -->
+        <div id="action" class="call-to-action">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1 text-center">
+                <h1 style="padding-bottom:.5em;">Getting Started</h1>
+                <a href="https://github.com/la5nta/pat/releases" class="btn btn-lg btn-primary">Download <i class="icon-arrow-down"></i></a>
+                <a href="https://github.com/la5nta/pat/wiki/The-command-line-interface" style="color:white;font-weight:300;">Quickstart Guide</a>
+                <p>&nbsp;</p>
+                <h4>Are you a gopher?</h4>
+                <pre><code>go get github.com/la5nta/pat</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Call to Action -->
+
+{{ partial "footer.html" . }}
