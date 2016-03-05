@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pat :: A modern Winlink client</title>
+    <link>http://getpat.io/post/</link>
+    <description>Recent content in Posts on Pat :: A modern Winlink client</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2016 16:35:01 +0100</lastBuildDate>
+    <atom:link href="http://getpat.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Winlink anywhere</title>
+      <link>http://getpat.io/post/anywhere/</link>
+      <pubDate>Sat, 20 Feb 2016 16:35:01 +0100</pubDate>
+      
+      <guid>http://getpat.io/post/anywhere/</guid>
+      <description>&lt;p&gt;Pat is a cross platform Winlink client written in Go.&lt;/p&gt;
+
+&lt;p&gt;Run it on any modern operating system, including Linux, OS X and Windows.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple, yet powerful</title>
+      <link>http://getpat.io/post/simple_yet_powerful/</link>
+      <pubDate>Sat, 27 Feb 2016 21:59:49 +0100</pubDate>
+      
+      <guid>http://getpat.io/post/simple_yet_powerful/</guid>
+      <description>&lt;p&gt;People have different preferences on how to interact with an appliction.&lt;/p&gt;
+
+&lt;p&gt;Pat provides both a modern GUI and a powerful command line interface, so most users should feel at home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open and free</title>
+      <link>http://getpat.io/post/opensource/</link>
+      <pubDate>Sat, 20 Feb 2016 17:27:49 +0100</pubDate>
+      
+      <guid>http://getpat.io/post/opensource/</guid>
+      <description>&lt;p&gt;Amateur radio is all about experimenting and sharing knowledge. We need to carry forward these traditions when we explore the possibilities of digital communications.&lt;/p&gt;
+
+&lt;p&gt;Pat is &lt;a href=&#34;https://github.com/la5nta/pat&#34;&gt;open source&lt;/a&gt; and free.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

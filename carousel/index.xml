@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carousels on Pat :: A modern Winlink client</title>
+    <link>http://getpat.io/carousel/</link>
+    <description>Recent content in Carousels on Pat :: A modern Winlink client</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Feb 2016 23:34:21 +0100</lastBuildDate>
+    <atom:link href="http://getpat.io/carousel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Features</title>
+      <link>http://getpat.io/carousel/carousel/</link>
+      <pubDate>Sat, 27 Feb 2016 23:34:21 +0100</pubDate>
+      
+      <guid>http://getpat.io/carousel/carousel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

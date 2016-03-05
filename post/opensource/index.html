@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portable winlink client written in Go">
+    <meta name="author" content="Martin Hebnes Pedersen">
+
+    <title>Open and free</title>
+
+    
+    <link href="http://getpat.iocss/bootstrap-theme.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://getpat.iocss/HPstyles.css" rel="stylesheet">
+    <link href="http://getpat.iocss/hugofont.css" rel="stylesheet">
+    <link href="http://getpat.iocss/owl.carousel.css" rel="stylesheet">
+    <link href="http://getpat.iocss/owl.theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://getpat.iofavicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://getpat.ioapple-touch-icon.png" />
+  </head>
+
+  <body>
+
+<p>Amateur radio is all about experimenting and sharing knowledge. We need to carry forward these traditions when we explore the possibilities of digital communications.</p>
+
+<p>Pat is <a href="https://github.com/la5nta/pat">open source</a> and free.</p>
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://github.com/la5nta/pat" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Martin Hebnes Pedersen 2015&dash;2016</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="http://getpat.iojs/jquery-2.1.1.min.js"></script>
+<script src="http://getpat.iojs/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  navigation:true,
+  autoPlay:true,
+  stopOnHover :true,
+  items:3,
+  pagination:false,
+})
+</script>
+
+
+</body>
+
+</html>
+
