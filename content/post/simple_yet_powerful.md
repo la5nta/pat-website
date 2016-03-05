@@ -8,4 +8,4 @@ icons = ["html5", "console"]
 
 People have different preferences on how to interact with an appliction.
 
-Pat provides both a modern GUI and a powerful command line interface, so most users should feel at home.
+Pat provides both a modern GUI and a powerful command-line interface, so most users should feel at home.
