@@ -1,5 +1,5 @@
 theme = "hugo-base-theme"
-baseurl = "http://getpat.io"
+baseurl = "http://getpat.io/"
 languageCode = "en-us"
 title = "Pat :: A modern Winlink client"
 
