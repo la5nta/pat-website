@@ -7,7 +7,7 @@ title = "Pat :: A modern Winlink client"
   description = "A portable winlink client written in Go"
   mainIcon = "/img/logo.png"
   author = "Martin Hebnes Pedersen"
-  releasesURL = "https://github.com/la5nta/wl2k-go/releases"
+  releasesURL = "https://github.com/la5nta/pat/releases"
 
 [[params.social]]
     title = "Docs"
