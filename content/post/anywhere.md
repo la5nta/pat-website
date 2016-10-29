@@ -8,4 +8,4 @@ icons = ["tux","apple","windows8"]
 
 Pat is a cross platform Winlink client written in Go.
 
-Run it on any modern operating system, including Linux, OS X and Windows.
+Run it on any modern operating system, including Linux, macOS and Windows.
