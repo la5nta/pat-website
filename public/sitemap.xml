@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://getpat.io/</loc>
-    <lastmod>2016-02-20T16:35:01+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://getpat.io/post/anywhere/</loc>
@@ -25,6 +20,34 @@
   <url>
     <loc>http://getpat.io/carousel/carousel/</loc>
     <lastmod>2016-02-27T23:34:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/carousel/</loc>
+    <lastmod>2016-02-27T23:34:21+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/</loc>
+    <lastmod>2016-02-20T16:35:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/post/</loc>
+    <lastmod>2016-02-20T16:35:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getpat.io/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
