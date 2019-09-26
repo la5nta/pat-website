@@ -7,7 +7,7 @@ icon = "pacman"
 
 [[carousel]]
   title = "All major modes"
-  description = "winmor, ardop, ax25 and telnet."
+  description = "winmor, ardop, pactor, ax25 and telnet."
 
 [[carousel]]
   title = "ARDOP"
@@ -20,6 +20,10 @@ icon = "pacman"
 [[carousel]]
   title = "WINMOR"
   description = "The WINMOR TNC is supported. Winmor runs great on Wine."
+
+[[carousel]]
+  title = "PACTOR"
+  description = "PACTOR modems (PTC-II and -III) can be used with Pat."
 
 [[carousel]]
   title = "Concurrency"
