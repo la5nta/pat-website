@@ -7,19 +7,19 @@ icon = "pacman"
 
 [[carousel]]
   title = "All major modes"
-  description = "winmor, ardop, pactor, ax25 and telnet."
+  description = "vara, ardop, pactor, ax25 and telnet."
 
 [[carousel]]
   title = "ARDOP"
-  description = "Pat has built in support for Winmor's succeessor."
+  description = "Pat has built in support for this open-source HF protocol."
 
 [[carousel]]
   title = "AX.25"
   description = "Use an AX.25 TNC or the Linux kernel's implementation with a KISS TNC."
 
 [[carousel]]
-  title = "WINMOR"
-  description = "The WINMOR TNC is supported. Winmor runs great on Wine."
+  title = "VARA"
+  description = "The VARA TNC is supported. VARA runs great on Wine."
 
 [[carousel]]
   title = "PACTOR"
