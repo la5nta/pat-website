@@ -30,7 +30,7 @@ icon = "pacman"
   description = "Listen for incoming P2P connections on multiple modes concurrently."
 
 [[carousel]]
-  title = "Seemless P2P mode"
+  title = "Seamless P2P mode"
   description = "No more switching between CMS and P2P sessions."
 
 [[carousel]]
